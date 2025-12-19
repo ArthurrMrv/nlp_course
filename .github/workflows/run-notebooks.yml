@@ -26,6 +26,15 @@ jobs:
             pip install nbconvert notebook
           fi
 
+      - name: Download NLTK resources
+        run: |
+          python - <<'PY'
+          import nltk
+          # punkt_tab is new in recent NLTK releases, so grab both to cover every notebook
+          for pkg in ("punkt", "punkt_tab"):
+              nltk.download(pkg, quiet=True)
+          PY
+
       - name: Execute notebooks
         run: |
           set -euo pipefail

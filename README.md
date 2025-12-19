@@ -18,6 +18,9 @@ Notebook execution is enforced by the **Notebook CI** workflow (`.github/workflo
 
 1. Checks out the repository and sets up Python 3.10.
 2. Installs the shared dependencies defined in `requirements.txt` (which includes the Jupyter tooling required to execute notebooks).
-3. Executes every tracked `.ipynb` file from a clean environment, ensuring the labs remain runnable end-to-end.
+3. Downloads the NLTK tokenizers (`punkt` and `punkt_tab`) so notebooks using `word_tokenize` run without manual setup.
+4. Executes every tracked `.ipynb` file from a clean environment, ensuring the labs remain runnable end-to-end.
 
 This guarantees that any change merged into the main branches keeps the teaching material executable for students.
+
+> **Local tip:** If you execute the notebooks outside CI, run `python -m nltk.downloader punkt punkt_tab` once to mirror the CI environment.
