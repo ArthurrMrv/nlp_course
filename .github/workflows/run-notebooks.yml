@@ -39,7 +39,8 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p executed-notebooks
-          notebooks=$(git ls-files '*.ipynb')
+          # Find all .ipynb files except those in lab7/ directory
+          notebooks=$(git ls-files '*.ipynb' | grep -Ev '^lab7/')
           if [ -z "$notebooks" ]; then
             echo "No notebooks found."
             exit 0

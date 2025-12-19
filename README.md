@@ -8,9 +8,12 @@ Hands-on notebooks for the AIDAMS NLP course, grouped by lab delivery. Each lab 
 - `lab1.1/` – *Maths & Optimisation Refresher*: supporting material for optimisation fundamentals (`Introduction_maths_optimisation.ipynb`).
 - `lab2/` – *Optimisation in NLP*: optimisation-focused follow-up notebook (`maths_optimisation.ipynb`).
 - `lab2.1/` – *Reconstruction Exercise*: complementary work for lab 2 (`reconstructed_notebook.ipynb`).
-- `lab3/` – *Advanced Optimisation*: continued techniques used later in the course (`maths_optimisation.ipynb`).
+- `lab3/` – *Advanced NLP*: comprehensive NLP techniques including tokenization, stemming, lemmatization, NER, preprocessing, BoW, TF-IDF, and word embeddings (`nlp_advanced.ipynb`).
 - `lab3.1/` – *Transformer Training*: end-to-end transformer text classification workflow (`Training Transformer Models for Text Classification.ipynb`).
 - `lab4/` – *Applied Analysis*: latest lab with its own `analysis.ipynb` notebook.
+- `lab5/` – *Clustering & Topic Modeling*: text clustering using SentenceTransformers, UMAP, HDBSCAN, and BERTopic (`clustering_topic_modeling.ipynb`).
+- `lab6/` – *LLM Fine-tuning*: fine-tuning large language models using LoRA and Hugging Face (`llm_finetuning.ipynb`).
+- `lab7/` – *Prompting & LangChain*: prompt engineering and building LLM applications with LangChain and Ollama (`prompting_langchain.ipynb`).
 
 ## Continuous Integration
 

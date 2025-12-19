@@ -12,3 +12,14 @@ transformers
 datasets
 huggingface-hub
 umap-learn
+sentence-transformers
+hdbscan
+bertopic
+keybert
+peft
+accelerate
+bitsandbytes
+langchain
+langchain-community
+langchain-core
+faiss-cpu
