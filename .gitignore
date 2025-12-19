@@ -9,6 +9,10 @@ __pycache__/
 venv/
 ENV/
 
+lab1.1
+lab2.1
+lab3.1
+
 # Jupyter artifacts
 .ipynb_checkpoints/
 executed-notebooks/

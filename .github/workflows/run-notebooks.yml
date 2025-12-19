@@ -40,5 +40,6 @@ jobs:
             jupyter nbconvert --to notebook --execute "$nb" \
               --output "$(basename "$nb" .ipynb).executed.ipynb" \
               --output-dir executed-notebooks \
-              --ExecutePreprocessor.timeout=900
+              --ExecutePreprocessor.timeout=900 \
+              --ExecutePreprocessor.kernel_name=python3
           done <<< "$notebooks"
