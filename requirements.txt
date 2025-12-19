@@ -1,0 +1,14 @@
+nbconvert
+notebook
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+sympy
+nltk
+torch
+transformers
+datasets
+huggingface-hub
+umap-learn

@@ -1,0 +1,18 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+executed-notebooks/
+
+# OS-specific noise
+.DS_Store
+Thumbs.db
