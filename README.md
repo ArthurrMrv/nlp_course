@@ -1,16 +1,17 @@
 # NLP Labs
 
-Hands-on notebooks for the AIDAMS NLP course, grouped by lab delivery. Each lab directory is self-contained so you can focus on a single topic at a time.
+Hands-on notebooks for the AIDAMS NLP course by Mr Dallard, grouped by lab delivery. Each lab directory is self-contained so you can focus on a single topic at a time.
+
+<div align="center">
+  <img src="img/title.jpeg" width="400" alt="Centered Image">
+</div>
 
 ## Project Structure
 
 - `lab1/` – *NLP Introduction*: baseline preprocessing and classical models (`nlp_introduction.ipynb`).
-- `lab1.1/` – *Maths & Optimisation Refresher*: supporting material for optimisation fundamentals (`Introduction_maths_optimisation.ipynb`).
 - `lab2/` – *Optimisation in NLP*: optimisation-focused follow-up notebook (`maths_optimisation.ipynb`).
-- `lab2.1/` – *Reconstruction Exercise*: complementary work for lab 2 (`reconstructed_notebook.ipynb`).
-- `lab3/` – *Advanced NLP*: comprehensive NLP techniques including tokenization, stemming, lemmatization, NER, preprocessing, BoW, TF-IDF, and word embeddings (`nlp_advanced.ipynb`).
-- `lab3.1/` – *Transformer Training*: end-to-end transformer text classification workflow (`Training Transformer Models for Text Classification.ipynb`).
-- `lab4/` – *Applied Analysis*: latest lab with its own `analysis.ipynb` notebook.
+- `lab3/` – *Transformer Quickstart*: distilled Hugging Face workflow that mirrors the CI-tested notebook (`hello_world_transformers.ipynb`).
+- `lab4/` – *Transformer Classification*: production-ready training pipeline and evaluation (`transformer_classification.ipynb`).
 - `lab5/` – *Clustering & Topic Modeling*: text clustering using SentenceTransformers, UMAP, HDBSCAN, and BERTopic (`clustering_topic_modeling.ipynb`).
 - `lab6/` – *LLM Fine-tuning*: fine-tuning large language models using LoRA and Hugging Face (`llm_finetuning.ipynb`).
 - `lab7/` – *Prompting & LangChain*: prompt engineering and building LLM applications with LangChain and Ollama (`prompting_langchain.ipynb`).
@@ -25,5 +26,3 @@ Notebook execution is enforced by the **Notebook CI** workflow (`.github/workflo
 4. Executes every tracked `.ipynb` file from a clean environment, ensuring the labs remain runnable end-to-end.
 
 This guarantees that any change merged into the main branches keeps the teaching material executable for students.
-
-> **Local tip:** If you execute the notebooks outside CI, run `python -m nltk.downloader punkt punkt_tab` once to mirror the CI environment.
