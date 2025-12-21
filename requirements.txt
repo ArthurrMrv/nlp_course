@@ -23,3 +23,6 @@ langchain
 langchain-community
 langchain-core
 faiss-cpu
+transformers 
+torch 
+sentencepiece

@@ -9,6 +9,10 @@ __pycache__/
 venv/
 ENV/
 
+# useless notebooks
+lab3/nlp_advanced.ipynb
+lab4/analysis.ipynb
+
 lab1.1
 lab2.1
 lab3.1
