@@ -26,3 +26,4 @@ faiss-cpu
 transformers 
 torch 
 sentencepiece
+evaluate
